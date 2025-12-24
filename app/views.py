@@ -4,7 +4,7 @@ from django.shortcuts import render
 from app.models import *
 from django.http import HttpResponse
 def d1(request):
-    return render(request,'d1.html')
+    return render(request,'home.html')
 
 def ins(request):
     
