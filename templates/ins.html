@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-3  m-auto mt-5">
+            <div class="card">
+                <div class="card-header bg-dark text-white">
+                    <h1 class="text-center">insert form</h1>
+                </div>
+                <div class="card-body">
+                    <form action="" method="POST" class="text-center">
+                        {% csrf_token %}
+                        
+                        <input type="number" name="id" id="" placeholder="enterid" class="mt-2 border-primary rounded-3" >
+                   
+                        <input type="text" name="name" id="" placeholder="entername" class="mt-2 border-primary rounded-3">
+                       
+                        <input type="text" name="email" id="" placeholder="enter emid" class="mt-2 border-primary rounded-3">
+                       
+                        <input type="number" name="salary" id="" placeholder="sal" class="mt-2 border-primary rounded-3"><br>
+
+                        <input type="submit" value="Submit" class="mt-2 btn btn-danger">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
