@@ -24,5 +24,6 @@ urlpatterns = [
     path('ins/',ins,name='ins'),
     path('del1/',del1,name='del1'),
     path('upda/',upda,name='upda'),
+    path('base/',base,name='base'),
     
 ]
