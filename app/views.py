@@ -46,3 +46,6 @@ def del1(request):
         #return render(request,'delete.html',d)
   
     return render(request,'del1.html')
+
+def base(request):
+    return render(request,'base.html')
